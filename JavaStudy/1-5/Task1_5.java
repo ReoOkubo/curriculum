@@ -36,8 +36,10 @@ public class Task1_5 {
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
         for (int x = 1; x <= 9; x++) {
+                System.out.print(x + "||");
             for (int y = 1; y <= 9; y++) {
-                System.out.print(x + "||" + (x*y) + "|" + " ");
+                
+                System.out.print ((x*y) + "|" + " ");
             }
             System.out.println();
            
