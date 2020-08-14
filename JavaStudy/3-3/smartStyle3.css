@@ -1,0 +1,62 @@
+@media screen and (max-width: 479px){
+    #wrapper{
+        width: 200px;
+    }
+    .header{
+        height: 200px;
+    }
+    #header-right{
+        position: relative;
+        top: 20px;
+        right: 70px;
+        bottom: 20px;
+        left: 70px;
+        width: 60px;
+        height: 160px;
+    }
+    #header-right-left{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        bottom: 100px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+    }
+    #header-right-center{
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        bottom: 60px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+    }
+    #header-right-right{
+        box-sizing: border-box;
+        position: absolute;
+        top: 110px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+    }
+    #right, #left{
+        float: none;
+        width: 200px;
+
+    }
+    #right-contents{
+        position: relative;
+        top: 20px;
+        right: auto;
+        bottom: auto;
+        left: 30px;
+    }
+
+    
+}
